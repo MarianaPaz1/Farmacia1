@@ -54,7 +54,7 @@
   text-align: center;
 }
 
-.menu{
+.menu {
   display: none;
 }
 
@@ -62,23 +62,23 @@ svg {
   color: red;
   width: 2vw;
   height: 30px;
- }
+}
 
- .liHeader{
-   display: flex;
-   justify-content: center;
- }
+.liHeader {
+  display: flex;
+  justify-content: center;
+}
 
- /* CAMPO DE BUSCA */
- #txtBusca {
+/* CAMPO DE BUSCA */
+#txtBusca {
   background-color: transparent;
   font-size: 18px;
   font-weight: bold;
   border: none;
   width: 18rem;
-  background-color:white;
+  background-color: white;
   /* margin-right: 150px; */
-   /* margin-left: 25px; */
+  /* margin-left: 25px; */
 }
 
 /* NAV */
@@ -214,7 +214,6 @@ nav {
   }
 }
 
-
 /* ---------------------------------------------- MODAL -------------------------- */
 /* aparencia do modal */
 /* .modal { */
@@ -273,8 +272,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-
 }
 
 .card {
@@ -318,7 +315,6 @@ nav {
   /* line-height: 10px; */
   padding: 10px;
   text-align: center;
-
 }
 
 .card:hover {
@@ -391,7 +387,7 @@ nav {
   margin-left: 100px;
 }
 
-h1{
+h1 {
   padding-left: 1rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -406,7 +402,6 @@ h3 {
   font-size: 14px;
   font-weight: bolder;
 }
-
 
 .prefooterRow {
   display: grid;
@@ -428,19 +423,18 @@ h3 {
   bottom: 5%;
   text-align: center;
   font-size: 14px;
- 
 }
 
 /* .preFooter:hover {
   /* box-shadow: 10px 40px 50px rgba(126, 33, 33, 0.384); 
 } */
 
-.search{
+.search {
   margin-right: 10rem;
 }
-#svg{
-margin-right: 1rem;
-margin-top: 0.5rem;
+#svg {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
 }
 /* -------------------------------------------------------FOOTER ---------------------------- */
 

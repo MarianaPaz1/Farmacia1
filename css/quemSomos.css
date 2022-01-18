@@ -234,7 +234,7 @@ img {
   text-align: center;
   /* line-height: 20px; */
 }
-.row1 img{
+.row1 img {
   margin-top: 3rem;
   width: 70px;
   height: auto;
@@ -428,13 +428,13 @@ h1 {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
-.h2Coracao{
-  text-align:center;
+.h2Coracao {
+  text-align: center;
 }
-#contato{
-margin-bottom: 1rem;
+#contato {
+  margin-bottom: 1rem;
 }
 
-.contato p{
+.contato p {
   margin-bottom: 1rem;
 }

@@ -39,7 +39,7 @@
   text-align: center;
 }
 
-.menu{
+.menu {
   display: none;
 }
 
@@ -47,23 +47,23 @@ svg {
   color: red;
   width: 2vw;
   height: 30px;
- }
+}
 
- .liHeader{
-   display: flex;
-   justify-content: center;
- }
+.liHeader {
+  display: flex;
+  justify-content: center;
+}
 
- /* CAMPO DE BUSCA */
- #txtBusca {
+/* CAMPO DE BUSCA */
+#txtBusca {
   background-color: transparent;
   font-size: 18px;
   font-weight: bold;
   border: none;
   width: 18rem;
-  background-color:white;
+  background-color: white;
   /* margin-right: 150px; */
-   /* margin-left: 25px; */
+  /* margin-left: 25px; */
 }
 
 /* NAV */
@@ -151,12 +151,12 @@ nav {
   height: 30px;
   margin-left: 100px;
 }
-.search{
+.search {
   margin-right: 10rem;
 }
-#svg{
-margin-right: 1rem;
-margin-top: 0.5rem;
+#svg {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
 }
 h2 {
   font-size: 16px;
@@ -166,11 +166,8 @@ h2 {
 .login {
   margin-top: 2%;
   display: flex;
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); */
   justify-content: space-around;
   align-items: center;
-  /* top: 5%; */
   min-height: 100vh;
 }
 
@@ -202,8 +199,6 @@ div#parallelogram {
   box-shadow: 5px 5px 15px;
   transform: skew(6deg, 3deg);
   position: absolute;
-  /* align-items: center;
-  justify-content: center; */
 }
 
 section h1 {
@@ -213,71 +208,31 @@ section h1 {
 
 .container input {
   margin: 10px 10px;
-
-  /* Define a largura do elemento. */
   width: calc(100% - 40px);
-
-  /* Defina a altura do elementos. */
   height: 70px;
-
-  /* Remove a borda. */
   border: none;
-
   background-color: #ededed;
   border-radius: 4px;
   color: #333;
-
-  /* Tamanho da fonte.*/
   font-size: 18px;
-
-  /* Aumenta a largura do contorno do texto.*/
   font-weight: 700;
-
-  /* Gera espaço ao redor do conteúdo do elemento
-	   (superior, direito, inferior e esquerdo) */
   padding: 14px 10px 0 10px;
 }
 
 .container label {
-  /* Tranforma o texto deixando todas as letras
-	   em maiúsculo. */
-
   font-size: 14px;
   font-weight: 700;
   color: #9d9d9d;
-
-  /* Posiciona qualquer elemento de acordo com o 
-	   elemento pai, deixando de fazer parte do fluxo 
-	   comum do documento.*/
   position: absolute;
-
-  /* Defina a altura entre linha. */
   line-height: 70px;
-
-  /* Posição vertical que necessita que o elemento 
-	   tenha uma posição determinada. */
   top: 10px;
-
-
-  /* left: 20px; */
-
-  /* Impede a seleção de texto.*/
   user-select: none;
-
-  /* Se o elemento deve agir ou não a
-	   eventos do ponteiro. */
   pointer-events: none;
-
-  /* Altera os valores das propriedades
-	   suavemente em um tempo determinado.*/
   transition: 0.5s;
 }
 
-/* ~ - Quando ocorrer o foco no input 
-   altere as propriedades do label. */
 .container input:focus ~ label,
 .container input:valid ~ label {
-  /* left: 20px; */
   top: -10px;
   color: #00acd7;
 }
@@ -289,14 +244,12 @@ section h1 {
   font-size: 14px;
   text-align: center;
   margin-top: 5%;
-  /* margin-left: 100px; */
 }
 
-button {
+.btnLogin {
   margin: 40px 0;
-  /* margin-left: 10px; */
   width: 14rem;
-  min-width: 5rem;
+  min-width: 3rem;
   height: 70px;
   justify-content: center;
   background-color: red;
@@ -315,8 +268,6 @@ button {
   font-weight: bold;
   color: black;
   line-height: 50px;
-  /* color: black;
-  text-decoration: underline; */
 }
 
 .sectionFooter {
@@ -346,7 +297,7 @@ a {
 /* -------------------------------------------------------FOOTER ---------------------------- */
 
 .sectionFooter {
- margin-top: 3%;
+  margin-top: 3%;
   width: 100%;
   height: 350px;
   background-color: rgb(245, 238, 238);
@@ -361,7 +312,6 @@ a {
   height: 200px;
   float: left;
   position: relative;
-  /* text-align: center; */
 }
 
 #footer2 {
@@ -369,7 +319,6 @@ a {
   height: 200px;
   float: left;
   position: relative;
-  /* text-align: center; */
 }
 
 #footer3 {
@@ -377,7 +326,6 @@ a {
   height: 200px;
   float: left;
   position: relative;
-  /* text-align: center; */
 }
 
 #pagamento {
@@ -407,10 +355,4 @@ a {
   padding: 10px;
   font-size: small;
   text-align: center;
-}
-
-@media (min-width: 700px) and (max-width: 992px) {
-  .form, .form2{
-    width: 15rem;
-  }
 }
