@@ -1,4 +1,6 @@
 /******************************************* MEDIA *****************************************/
+
+
 /* telas pequenas */
 @media (max-width: 400px) {
   #descontos {
@@ -18,11 +20,24 @@
   .direita img {
     display: none;
   }
-  .form,
-  .form1 {
-    width: 320px;
+  .form{
+    width: 10rem;
   }
 }
+
+@media (max-width: 425px) {
+  .form,
+  .form1 {
+    width: 425px;
+ 
+  }
+  .login {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60%, 1fr));
+  }
+}
+
+
 /* telas pequenas */
 @media (max-width: 700px) {
   /* ***RODAPE*** */
@@ -247,35 +262,5 @@
   .form1 {
     width: 720px;
     margin-left: 1.5rem;
-  }
-}
-/* formulário */
-@media (max-width: 320px) {
-  .form,
-  .form1 {
-    width: 160px;
-    /* margin-left: 1.5rem; */
-    
-  }
-  .login {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(60%, 1fr));
-  }
- 
-}
- .btnLogin{
-    width: 10rem;
-  }
-
-
-@media (max-width: 425px) {
-  .form,
-  .form1 {
-    width: 425px;
-    /* margin-left: 1.5rem; */
-  }
-  .login {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(60%, 1fr));
   }
 }
