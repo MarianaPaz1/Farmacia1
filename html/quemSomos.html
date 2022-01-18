@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/pharmacy.png">
+    <link rel="stylesheet" href="../css/quemSomos.css">
+    <link rel="stylesheet" href="../css/responsividade.css">
+    <title>Farmais</title>
+</head>
+
+<body>
+    <header class="header container">
+        <div>
+            <div><a class="a" href="../index.html"> <img src="../img/logo2.png" id="logoCabecalho"></a></div>
+        </div>
+
+        <nav class="navPesquisa">
+            <div>
+                <li><svg id="svg" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+
+            </div>
+            <input class="search" type="text" id="txtBusca" placeholder="O que você está procurando?" />
+            </li>
+            <li class="nav-links">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                    <path fill-rule="evenodd"
+                        d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                </svg>
+
+                <a href="#"> Nossas Lojas</a>
+            </li>
+            <li class="nav-links">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
+                </svg>
+                <a href="#">Seus Pedidos</a>
+            </li>
+            <li class="nav-links">
+                <a href="./html/login.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                    </svg>
+                </a>
+                <a href="../html/login.html">Entrar</a>
+            </li>
+        </nav>
+    </header>
+        <!-- final do modal -->
+
+    <!-- Iniciando o menu hamburguer -->
+    <nav>
+        <!-- Menu em DropDown -->
+
+        <div class="menuDropdown">
+            <a href="" class="menudrop"><img
+                    src="https://img.icons8.com/material-outlined/48/000000/menu--v3.png" /></a>
+            <div class="dropContent">
+                <h3>Menu</h3>
+                <ul>
+                    <li class="grid-item"><a href="../index.html">Home</a></li>
+                    <li class="grid-item menu"><a href="../index.html">Nossas Lojas</a></li>
+                    <li class="grid-item menu"><a href="../index.html">Seus Pedidos</a></li>
+                    <li class="grid-item menu"><a href="login.html">Entrar</a></li>
+                    <li class="grid-item"><a href="../index.html">Produtos</a></li>
+                    <li class="grid-item"><a href="quemSomos.html">Institucional</a></li>
+                    <li class="grid-item"><a href="quemSomos.html">Quem Somos</a></li>
+                    <li class="grid-item"><a href="quemSomos.html">Equipe</a></li>
+                    <li class="grid-item"><a href="#contato">Endereço</a></li>
+
+                </ul>
+            </div>
+            <div>
+                <h2>Todas as categorias</h2>
+            </div>
+        </div>
+
+        <div id="descontos">
+            <p>Pegue seu cupom</p>
+            <img class="img1" src="../img/cupom.png" />
+        </div>
+    </nav>
+    <main>
+
+
+        <div class="text1">
+            <div class="esquerda">
+                <img style="width: 100%;" src="../img/equipe2.jpeg">
+
+            </div>
+            <div class="direita">
+                <h1>Quem Somos?</h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sint, eos consequatur delectus
+                    quibusdam
+                    consequuntur accusantium harum fuga debitis ad sed nihil ipsa? Quibusdam architecto nobis
+                    doloremque, quos
+                    dicta aliquam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis tempore earum quas corrupti dicta
+
+                </p>
+            </div>
+        </div>
+
+        <div class="text1">
+            <div class="esquerda">
+                <h1>Missão, Visão e Valores</h1>
+                <p><strong>Missão</strong> Construir relacionamentos de confiança todos os dias, por meio da excelência
+                    em EXECUÇÃO e
+                    ATENDIMENTO, gerando oportunidades de crescimento para os colaboradores e resultados
+                    sustentáveis para a empresa.</p>
+
+                <p> <strong>Visão</strong> Farmácia é saúde e beleza para toda a vida. Nossa missão é contribuir para
+                    que esse ciclo de
+                    contribuição não se acabe.</p>
+
+                <p><strong>Valores</strong> Ética – fazer o que sabemos ser o certo, de forma transparente e com
+                    honestidade, seja qual for
+                    a situação.
+
+                    Empreendedorismo – cuidar do negócio como se fosse o dono, se comprometer e procurar fazer
+                    sempre o melhor.
+
+                    Empatia – se colocar no lugar do outro.
+
+                    Simplicidade – ser natural, espontâneo, acessível e nada complicado.
+
+                    Inovação – ter uma inquietação constante para fazer melhor.
+                </p>
+            </div>
+
+
+            <div class="direita">
+                <img style="width: 100%" src="../img/farmacia1.jpg">
+            </div>
+        </div>
+
+
+        <h1> Linha do Tempo</h1>
+
+
+        <div class="row1">
+            <div>
+                <h2 class="h2Coracao">1960</h2>
+                <p>Abertura da primeira loja</p>
+                <p id="coracao"></p>
+            </div>
+
+            <div class="card">
+                <h2>1970</h2>
+                <p>Reforma e ampliação do espaço</p>
+                <img src="https://img.icons8.com/fluency-systems-regular/100/000000/department.png" />
+            </div>
+
+            <div class="card">
+                <h2>1980</h2>
+                <p>Contratação de uma nova equipe</p>
+                <img src="https://img.icons8.com/ios/100/000000/multicultural-people.png" />
+
+            </div>
+            <div class="card">
+                <h2>1990</h2>
+                <p>Registro em sistemas internacionais</p>
+                <img src="https://img.icons8.com/ios/100/000000/worldwide-location.png" />
+
+
+            </div>
+            <div>
+                <h2 class="h2Coracao">2000</h2>
+                <p>Abertura da 10ª Loja </p>
+                <p id="coracao"></p>
+            </div>
+
+            <div class="card">
+                <h2>2010</h2>
+                <p>Inclusão do programa farmácia popular</p>
+                <img
+                    src="https://img.icons8.com/external-tulpahn-basic-outline-tulpahn/100/000000/external-pharmacy-healthcare-tulpahn-basic-outline-tulpahn.png" />
+
+            </div>
+
+            <div class="card">
+                <h2>2022</h2>
+                <p>Abertura de uma franquia de farmácias</p>
+                <img src="https://img.icons8.com/dotty/100/000000/client-company.png" />
+
+
+            </div>
+            <!-- fechando div row -->
+        </div>
+
+
+        <div class="row">
+            <div class="contato">
+
+                <h3 id="contato">Entre em Contato Conosco </h3>
+                <p class="mb-5"> Sabemos que a credibilidade supera as incertezas, portanto,
+                    disponibilizamos um canal
+                    de atendimento especializado ao cliente, visando a sua satisfação e segurança durante o
+                    contato.A sua satisfação é a nossa realização.
+                </p>
+
+
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path
+                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg>
+                </a>
+
+                <span>LIGUE PARA NÓS</span>
+                <p><a href="#"> (11)00000-0000, (11) 00000-0000</p>
+
+
+                <a href="https://api.whatsapp.com/send?phone=5511900000000&text=sua%20mensagem" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path
+                            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                    </svg>
+                </a>
+                <span>ACESSE NOSSO WHATSAAP</span>
+                <p>(11) 9.0000-0000</p>
+
+                <a href=mailto:faleconosco@farmais.com.br?subject=subjectText"> <svg xmlns="http://www.w3.org/2000/svg"
+                        width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                    </svg>
+                </a><span>ENVIE-NOS UM E-MAIL</span>
+                <p>
+                    <a href=mailto:faleconosco@farmais.com.br?subject=subjectText">faleconosco@farmais.com.br</a>
+                </p>
+                <a href="https://goo.gl/maps/VSNMbxKEHwHdPGBD8" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path
+                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg>
+                </a>
+                <span>LOCALIZAÇÃO</span>
+                <p>Rua x, Cidade - Estado, Brasil, CEP 00000-000.</p>
+            </div>
+            <div class="contato">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3659.8860830751255!2d-46.69607458538638!3d-23.464573263909344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94cef9926b7ad295%3A0x980de6c5053f3485!2sRua%20Pirajibe%20-%20Vila%20Itaberaba%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002847-001!3m2!1d-23.4645782!2d-46.6938859!5e0!3m2!1spt-BR!2sbr!4v1641410736182!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </main>
+
+
+    <!-----------------------------------inicio do footer ---------------------------->
+
+    <section class="sectionFooter">
+        <div id="footer1">
+            <ul>
+                <p class="central"> Serviços </p>
+                <li> <a href="#"> Farmacêuticos Farmais </a></li>
+                <li> <a href="#"> Nossas Lojas</a></li>
+                <li><a href="#"> Progamas dos laboratórios</a></li>
+
+                <p class="central"> Institucional </p>
+                <li> <a href="#"> Nossa História </a></li>
+                <li> <a href="#"> Logística Reversa de Medicamentos</a></li>
+                <li><a href="#">Trabalhe conosco</a></li>
+                <li><a href="#">Imprensa</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Política de cookies</a></li>
+            </ul>
+        </div>
+
+        <div id="footer2">
+
+            <ul>
+                <p class="central"> Minha Conta </p>
+                <li> <a href="#"> Como Comprar no Site </a></li>
+                <li> <a href="#"> Formas de pagamentos disponíveis</a></li>
+                <li><a href="#"> Prazo de reembolso</a></li>
+                <li><a href="#">Troca ou devolução</a></li>
+
+                <p class="central">Outras Informações </p>
+                <li> <a href="#"> Logística reversa</a></li>
+                <li> <a href="#"> Sustentabilidade</a></li>
+                <li><a href="#"> Regulamentações da ANVISA</a></li>
+                <li><a href="#"> Manual do usuário</a></li>
+            </ul>
+        </div>
+
+        <div id="footer3">
+            <ul>
+                <p class="central"> Central de Atendimento </p>
+                <li> <img src="https://img.icons8.com/material-sharp/24/000000/no-phones--v1.png"
+                        alt=" ícone de telefone " /> (11) 94575-2271</li>
+                <li><img src="https://img.icons8.com/material-outlined/24/000000/email.png" alt="ícone de email " />
+                    contato@farmais.com.br </li>
+                <li><img src="https://img.icons8.com/material/24/000000/internet.png" alt="ícone de servidor " />
+                    www.farmais.com.br </li>
+                <li><img src="https://img.icons8.com/material/24/000000/marker--v1.png" alt="ícone de mapa" /><a
+                        href="#">
+                        Rua x, Cidade - Estado, Brasil, CEP 00000-000</a>
+                </li>
+
+
+                <p class="central" id="formasPg"> Formas de pagamento:</p>
+                <div class="pagamento">
+                    <li>
+                        <img src="https://img.icons8.com/fluency/48/000000/mastercard.png" alt="ícone do cartão " />
+                    </li>
+                </div>
+                <div class="pagamento">
+                    <li>
+                        <img src="https://img.icons8.com/fluency/48/000000/visa.png" alt="ícone do cartão" />
+                    </li>
+                </div>
+                <div class="pagamento">
+                    <li>
+                        <img src="https://img.icons8.com/fluency/48/000000/card-in-use-1.png" />
+                    </li>
+                </div>
+                <div class="pagamento">
+                    <li>
+                        <img src="https://img.icons8.com/color/50/000000/mercado-pago.png" />
+                    </li>
+                </div>
+                <div class="pagamento">
+                    <li>
+                        <img src="https://img.icons8.com/color/48/000000/paypal.png" />
+                    </li>
+                </div>
+                <div class="pagamento">
+                    <li><img src="https://img.icons8.com/color/48/000000/boleto-bankario.png"
+                            alt="ícone de pagamento" />
+                </div>
+                <div class="pagamento">
+                    <li>
+                        <img src="https://img.icons8.com/fluency/48/000000/diners-club.png" />
+                    </li>
+                </div>
+            </ul>
+        </div>
+
+    </section>
+
+    <p class="rodape">
+        Copyright © 2022 FARMAIS | Todos os direitos reservados
+    </p>
+
+    </footer>
+
+
+
+    <!-- Adicionando acessibilidade - Vlibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+
+</html>

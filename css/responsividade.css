@@ -1,0 +1,246 @@
+/******************************************* MEDIA *****************************************/
+
+@media (max-width: 400px) {
+    #descontos {
+       display: none;
+      }
+      .carrossel{
+        display:none;
+      }
+      #coracao{
+        display: none;
+      }
+      .contato{
+        display: none;
+      }
+    
+      .esquerda img, .direita img {
+display: none;
+      }
+    
+}
+/* telas pequenas */
+@media (max-width: 700px) {
+  /* ***RODAPE*** */
+   .sectionFooter {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .rodape{
+    width: 100%;
+  }
+
+  #footer1 {
+    width: 100%;
+  }
+
+  #footer2 {
+    width: 100%;
+  }
+
+  #footer2 section div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* HEADER */
+  #logoCabecalho{
+        width: 8rem;
+        height: auto;
+        margin-top: 15px;
+        }
+        #descontos {
+            width: 7rem;
+            height: auto;
+            background-color: red;
+            border-bottom-left-radius: 30px;
+          }
+          #descontos img{
+              display: none;
+          }
+          .nav-links a {
+   
+            font-size: 1rem;
+                   
+          }
+          .navPesquisa{
+        display: none;
+          }
+          .menu{
+              display: block;
+          }
+        
+          .search, #svg{
+            margin-right:0;
+          }
+          header svg{
+              display: none;
+                }
+                .header{
+                    justify-content: center;
+                  }
+                  .contato{
+                    display: none;
+                  }
+                  .esquerda img, .direita img {
+                    display: none;
+                          }
+        
+
+  /* REDEFININDO O TAMANHO DOS ICONES E CRIANDO ESPAÇOS ENTRE ELES */
+  #footer2 section div img {
+    width: 35px;
+    margin: 20px;
+  }
+
+  #footer3 {
+    width: 100%;
+  }
+
+  /* CARDS */
+
+  .row {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .row2 {
+    display: none;
+  }
+  .prefooterRow {
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  }
+  .sectionFooter {
+    height: 1000px;
+  }
+  #formasPg,
+  .pagamento {
+    display: none;
+  }
+
+  /* Formulário */
+  div#parallelogram {
+    display: none;
+  }
+
+  section {
+    min-width: 5rem;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  div#check {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    margin-left: 0;
+  }
+  .login {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+  .carrossel{
+    height: 200px;
+  }
+  #coracao{
+    display: none;
+  }
+  .text1{
+    display: inline-block;
+  }
+  .row1{
+    display: inline-block;
+  }
+}
+
+/* RESPONSIVIDADE MÉDIA */
+  @media (min-width: 700px) and (max-width: 992px) {
+
+      /* HEADER */
+      .header{
+        justify-content: center;
+      }
+  #logoCabecalho{
+    width: 8rem;
+    height: auto;
+    margin-top: 15px;
+    }
+    #descontos {
+        width: 7rem;
+        height: auto;
+        background-color: red;
+        border-bottom-left-radius: 30px;
+      }
+      #descontos img{
+          display: none;
+      }
+      .nav-links a {
+
+        font-size: 1rem;
+               
+      }
+      .navPesquisa{
+    display: none;
+      }
+      .menu{
+          display: block;
+      }
+    
+      .search, #svg{
+        margin-right:0;
+      }
+      header svg{
+          display: none;
+         
+            }
+
+            /* FOOTER */
+  .sectionFooter {
+    height: 23rem;
+    width: 100%;
+  }
+  .rodape{
+    height: 3rem;
+  }
+
+  .prefooterRow {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  /* Formulario */
+  div#parallelogram {
+    height: 690px;
+  }
+  .login {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+  #formasPg,
+  .pagamento {
+    display: none;
+  }
+  .carrossel{
+    height: 300px;
+  }
+  #coracao{
+    display: none;
+  }
+  .contato{
+    display: none;
+  }
+  .text1{
+    display: inline-block;
+  }
+  .esquerda img, .direita img {
+    display: none;
+          }
+          .row1{
+            display: inline-block;
+          }
+}
+

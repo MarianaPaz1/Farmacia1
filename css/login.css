@@ -1,0 +1,416 @@
+/* --------------------------- INFORMAÇÕES GERAIS DA PÁGINA 1------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  list-style-type: none;
+  overflow-x: none;
+}
+/* ---------------------------------------------------HEADER e NAV --------------------------------- */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(245, 238, 238);
+}
+
+#logoCabecalho {
+  width: 10vw;
+  height: 30px;
+  margin-top: 15px;
+}
+.navbar {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links a {
+  margin: 20px;
+  text-decoration: none;
+  color: var(--bs-light);
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.menu{
+  display: none;
+}
+
+svg {
+  color: red;
+  width: 2vw;
+  height: 30px;
+ }
+
+ .liHeader{
+   display: flex;
+   justify-content: center;
+ }
+
+ /* CAMPO DE BUSCA */
+ #txtBusca {
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  width: 18rem;
+  background-color:white;
+  /* margin-right: 150px; */
+   /* margin-left: 25px; */
+}
+
+/* NAV */
+
+#menu {
+  width: 200px;
+  height: 60px;
+  margin: 0;
+  display: flex;
+  color: black;
+}
+
+nav {
+  /* display: inline-flex; */
+  /* space-between */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#descontos {
+  width: 11.25rem;
+  height: 60px;
+  background-color: red;
+  border-bottom-left-radius: 30px;
+}
+#descontos p {
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  padding-right: 7px;
+  font-weight: bolder;
+  top: 3%;
+}
+
+/*  MEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEENU */
+/******************************************* Dropdown do menu com o uso de hover *******************************************************/
+
+.menuDropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dropContent {
+  display: none; /* ESCONDIDO POR PADRÃO */
+  position: absolute;
+  background-color: red;
+  min-width: 160px;
+  top: 15%;
+  z-index: 99; /* POR CIMA DAS OUTRAS COISAS*/
+  margin-left: 30px;
+  border-radius: 30px;
+  padding: 20px;
+  color: #1c0036;
+  font-weight: bold;
+}
+/* ESTILIZAÇÃO DAS LETRAS DO MENU */
+.dropContent li a {
+  color: #1c0036;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+}
+/* ALTERA A COR */
+.dropContent li a:hover {
+  color: #ffffff;
+}
+
+.dropContent li {
+  padding-bottom: 3px;
+  list-style: none;
+}
+.dropContent h3 {
+  padding-bottom: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.menuDropdown:hover .dropContent {
+  display: block;
+}
+
+.img1 {
+  width: 30px;
+  height: 30px;
+  margin-left: 100px;
+}
+.search{
+  margin-right: 10rem;
+}
+#svg{
+margin-right: 1rem;
+margin-top: 0.5rem;
+}
+h2 {
+  font-size: 16px;
+  font-weight: bolder;
+}
+/*  ----------------------------------------------FECHANDO O HEADER E NAV ------------------------- */
+.login {
+  margin-top: 2%;
+  display: flex;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); */
+  justify-content: space-around;
+  align-items: center;
+  /* top: 5%; */
+  min-height: 100vh;
+}
+
+.form {
+  background-color: #fff;
+  width: 30rem;
+  height: 56.25rem;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px rgba(0, 0, 0, 0.144);
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form1 {
+  background-color: #fff;
+  width: 30rem;
+  height: 56.25rem;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px rgba(0, 0, 0, 0.144);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+div#parallelogram {
+  background: #00acd7;
+  width: 14rem;
+  height: 720px;
+  max-width: 10rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px;
+  transform: skew(6deg, 3deg);
+  position: absolute;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+section h1 {
+  padding: 40px 10px;
+  text-align: center;
+}
+
+.container input {
+  margin: 10px 10px;
+
+  /* Define a largura do elemento. */
+  width: calc(100% - 40px);
+
+  /* Defina a altura do elementos. */
+  height: 70px;
+
+  /* Remove a borda. */
+  border: none;
+
+  background-color: #ededed;
+  border-radius: 4px;
+  color: #333;
+
+  /* Tamanho da fonte.*/
+  font-size: 18px;
+
+  /* Aumenta a largura do contorno do texto.*/
+  font-weight: 700;
+
+  /* Gera espaço ao redor do conteúdo do elemento
+	   (superior, direito, inferior e esquerdo) */
+  padding: 14px 10px 0 10px;
+}
+
+.container label {
+  /* Tranforma o texto deixando todas as letras
+	   em maiúsculo. */
+
+  font-size: 14px;
+  font-weight: 700;
+  color: #9d9d9d;
+
+  /* Posiciona qualquer elemento de acordo com o 
+	   elemento pai, deixando de fazer parte do fluxo 
+	   comum do documento.*/
+  position: absolute;
+
+  /* Defina a altura entre linha. */
+  line-height: 70px;
+
+  /* Posição vertical que necessita que o elemento 
+	   tenha uma posição determinada. */
+  top: 10px;
+
+
+  /* left: 20px; */
+
+  /* Impede a seleção de texto.*/
+  user-select: none;
+
+  /* Se o elemento deve agir ou não a
+	   eventos do ponteiro. */
+  pointer-events: none;
+
+  /* Altera os valores das propriedades
+	   suavemente em um tempo determinado.*/
+  transition: 0.5s;
+}
+
+/* ~ - Quando ocorrer o foco no input 
+   altere as propriedades do label. */
+.container input:focus ~ label,
+.container input:valid ~ label {
+  /* left: 20px; */
+  top: -10px;
+  color: #00acd7;
+}
+
+#check {
+  width: 14rem;
+  min-width: 8rem;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5%;
+  /* margin-left: 100px; */
+}
+
+button {
+  margin: 40px 0;
+  /* margin-left: 10px; */
+  width: 14rem;
+  min-width: 5rem;
+  height: 70px;
+  justify-content: center;
+  background-color: red;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+/* -------------------------------------------------------FOOTER ---------------------------- */
+
+.central {
+  font-size: 15 px;
+  font-weight: bold;
+  color: black;
+  line-height: 50px;
+  /* color: black;
+  text-decoration: underline; */
+}
+
+.sectionFooter {
+  width: 100%;
+  height: 350px;
+  background-color: rgb(245, 238, 238);
+  color: black;
+  justify-content: space-around;
+  border-bottom: solid green 1px;
+  display: flex;
+  padding-left: 1rem;
+}
+
+.footer {
+  width: 33%;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+
+footer,
+a {
+  color: black;
+  line-height: 20px;
+}
+
+/* -------------------------------------------------------FOOTER ---------------------------- */
+
+.sectionFooter {
+ margin-top: 3%;
+  width: 100%;
+  height: 350px;
+  background-color: rgb(245, 238, 238);
+  color: black;
+  justify-content: space-around;
+
+  display: flex;
+}
+
+#footer1 {
+  width: 33%;
+  height: 200px;
+  float: left;
+  position: relative;
+  /* text-align: center; */
+}
+
+#footer2 {
+  width: 33%;
+  height: 200px;
+  float: left;
+  position: relative;
+  /* text-align: center; */
+}
+
+#footer3 {
+  width: 33%;
+  height: 200px;
+  float: left;
+  position: relative;
+  /* text-align: center; */
+}
+
+#pagamento {
+  width: 100%;
+  height: 30px;
+  text-decoration: none;
+  list-style-type: none;
+  background-color: #faf6f2;
+  padding: 10px 0 50px;
+}
+
+.pagamento {
+  width: 14%;
+  height: 20px;
+  text-decoration: none;
+  float: left;
+  list-style-type: none;
+  text-align: center;
+}
+
+/* ----------------------------------------RODAPÉ------------------------------------------ */
+.rodape {
+  background-color: #808285;
+  color: white;
+  margin: 0;
+  border: 10px;
+  padding: 10px;
+  font-size: small;
+  text-align: center;
+}
+
+@media (min-width: 700px) and (max-width: 992px) {
+  .form, .form2{
+    width: 15rem;
+  }
+}

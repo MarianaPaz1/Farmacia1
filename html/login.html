@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/pharmacy.png">
+    <link rel="stylesheet" href="../css/login.css">
+
+    <link rel="stylesheet" href="../css/responsividade.css">
+    <title>Farmais</title>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <div><a class="a" href="../index.html"><img src="../img/logo2.png" id="logoCabecalho"></a></div>
+        </div>
+
+        <nav class="navPesquisa"> 
+            <div>
+                <li><svg id="svg" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+
+            </div>
+            <input class="search" type="text" id="txtBusca" placeholder="O que você está procurando?" />
+            </li>
+            <li class="nav-links">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                    <path fill-rule="evenodd"
+                        d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                </svg>
+
+                <a href="#"> Nossas Lojas</a>
+            </li>
+            <li class="nav-links">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
+                </svg>
+                <a href="#">Seus Pedidos</a>
+            </li>
+            <li class="nav-links">
+                <a href="./html/login.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                    </svg>
+                </a>
+                <a href="../html/login.html">Entrar</a>
+            </li>
+        </nav>
+    </header>
+
+
+    <nav>
+        <!-- Menu em DropDown -->
+
+        <div class="menuDropdown">
+            <a href="" class="menudrop"><img
+                    src="https://img.icons8.com/material-outlined/48/000000/menu--v3.png" /></a>
+            <div class="dropContent">
+                <h3>Menu</h3>
+                <ul>
+                    <li class="grid-item"><a href="../index.html">Home</a></li>
+                    <li class="grid-item menu"><a href="../index.html">Nossas Lojas</a></li>
+                    <li class="grid-item menu"><a href="../index.html">Seus Pedidos</a></li>
+                    <li class="grid-item menu"><a href="login.html">Entrar</a></li>
+                    <li class="grid-item"><a href="../index.html">Produtos</a></li>
+                    <li class="grid-item"><a href="quemSomos.html" >Institucional</a></li>
+                    <li class="grid-item"><a href="quemSomos.html">Quem Somos</a></li>
+                    <li class="grid-item"><a href="quemSomos.html">Equipe</a></li>
+                    <li class="grid-item"><a href="quemSomos.html">Endereço</a></li>
+
+                </ul>
+            </div>
+            <div>
+                <h2>Todas as categorias</h2>
+            </div>
+        </div>
+
+        <div id="descontos">
+            <p>Pegue seu cupom</p>
+            <img class="img1" src="../img/cupom.png" />
+        </div>
+    </nav>
+
+    <section class="login">
+        <div class="form1">
+            <h1> Entrar</h1>
+            <form action="#" method="POST">
+
+
+                <label>E-mail</label>
+                <div class="container">
+                    <input type="email" required name="email" autofocus>
+                </div>
+
+                <label>Senha</label>
+                <div class="container">
+                    <input type="password" required name="senha" autofocus>
+                </div>
+                      <button type="submit">Entrar</button>
+            </form>
+            <div class="get-the-app">
+                <p>Baixe nosso aplicativo</p>
+                <div class="download">
+
+                    <a href="https://play.google.com/store/?utm_source=latam_Med&utm_medium=hasem&utm_content=Jul1520&utm_campaign=Evergreen&pcampaignid=MKT-FDR-latam-br-1002290-Med-hasem-py-Evergreen-Jul1520-Text_Search_BKWS-28432345789&gclid=CjwKCAjwn6GGBhADEiwAruUcKl96Jy2MMfWqz2cxxUeJqKN665MwuJbwtVAxmNQl1msnMrtHB9UwpBoC2i0QAvD_BwE&gclsrc=aw.ds"
+                        target="blank"><img
+                        src="https://img.icons8.com/doodle/48/000000/google-play.png" /></a>
+                        
+                    <a href="https://apps.apple.com/br/app/apple-store/id375380948" target="blank"><img src="https://img.icons8.com/fluency/48/000000/apple-app-store.png" /></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="form">
+            <h1> Cadastre-se</h1>
+            <form action="#" method="POST">
+
+                <label>Nome</label>
+                <div class="container">
+                    <input type="text" required name="nome" autofocus>
+                </div>
+                <label>Sobrenome</label>
+                <div class="container">
+                    <input type="text" required name="sobrenome" autofocus>
+                </div>
+
+
+                <label>E-mail</label>
+                <div class="container">
+                    <input type="email" required name="email" autofocus>
+                </div>
+
+                <label>Senha</label>
+                <div class="container">
+                    <input type="password" required name="senha" autofocus>
+                </div>
+
+                <label>Confirmar Senha</label>
+                <div class="container">
+                    <input type="password" required name="confirmarSenha" autofocus>
+                </div>
+
+
+                <div id="check">
+                    <input type="checkbox" required name="aceitar">
+                    <label><a href="#">Aceitar os termos de uso</a></label>
+
+                </div>
+                <button type="submit">Criar Conta</button>
+
+            </form>
+        </div>
+
+
+    </section>
+
+    
+   <!-----------------------------------inicio do footer ---------------------------->
+
+   <section class="sectionFooter">
+    <div id="footer1">
+        <ul>
+            <p class="central"> Serviços </p>
+            <li> <a href="#"> Farmacêuticos Farmais </a></li>
+            <li> <a href="#"> Nossas Lojas</a></li>
+            <li><a href="#"> Progamas dos laboratórios</a></li>
+
+            <p class="central"> Institucional </p>
+            <li> <a href="#"> Nossa História </a></li>
+            <li> <a href="#"> Logística Reversa de Medicamentos</a></li>
+            <li><a href="#">Trabalhe conosco</a></li>
+            <li><a href="#">Imprensa</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+                       <li><a href="#">Política de cookies</a></li>
+        </ul>
+    </div>
+
+    <div id="footer2">
+
+        <ul>
+            <p class="central"> Minha Conta </p>
+            <li> <a href="#"> Como Comprar no Site </a></li>
+            <li> <a href="#"> Formas de pagamentos disponíveis</a></li>
+            <li><a href="#"> Prazo de reembolso</a></li>
+            <li><a href="#">Troca ou devolução</a></li>
+
+            <p class="central">Outras Informações </p>
+            <li> <a href="#"> Logística reversa</a></li>
+            <li> <a href="#"> Sustentabilidade</a></li>
+            <li><a href="#"> Regulamentações da ANVISA</a></li>
+            <li><a href="#"> Manual do usuário</a></li>
+        </ul>
+    </div>
+
+    <div id="footer3">
+        <ul>
+            <p class="central"> Central de Atendimento </p>
+            <li> <img src="https://img.icons8.com/material-sharp/24/000000/no-phones--v1.png"
+                    alt=" ícone de telefone " /> (11) 94575-2271</li>
+            <li><img src="https://img.icons8.com/material-outlined/24/000000/email.png" alt="ícone de email " />
+                contato@farmais.com.br </li>
+            <li><img src="https://img.icons8.com/material/24/000000/internet.png" alt="ícone de servidor " />
+                www.farmais.com.br </li>
+            <li><img src="https://img.icons8.com/material/24/000000/marker--v1.png" alt="ícone de mapa" /><a
+                    href="#">
+                    Rua x, Cidade - Estado, Brasil, CEP 00000-000</a>
+            </li>
+
+
+            <p class="central" id="formasPg"> Formas de pagamento:</p>
+            <div class="pagamento">
+                <li>
+                    <img src="https://img.icons8.com/fluency/48/000000/mastercard.png" alt="ícone do cartão " />
+                </li>
+            </div>
+            <div class="pagamento">
+                <li>
+                    <img src="https://img.icons8.com/fluency/48/000000/visa.png" alt="ícone do cartão" />
+                </li>
+            </div>
+            <div class="pagamento">
+                <li>
+                    <img src="https://img.icons8.com/fluency/48/000000/card-in-use-1.png" />
+                </li>
+            </div>
+            <div class="pagamento">
+                <li>
+                    <img src="https://img.icons8.com/color/50/000000/mercado-pago.png" />
+                </li>
+            </div>
+            <div class="pagamento">
+                <li>
+                    <img src="https://img.icons8.com/color/48/000000/paypal.png" />
+                </li>
+            </div>
+            <div class="pagamento">
+                <li><img src="https://img.icons8.com/color/48/000000/boleto-bankario.png"
+                        alt="ícone de pagamento" />
+            </div>
+            <div class="pagamento">
+                <li>
+                    <img src="https://img.icons8.com/fluency/48/000000/diners-club.png" />
+                </li>
+            </div>
+        </ul>
+    </div>
+
+</section>
+
+<p class="rodape">
+    Copyright © 2022 FARMAIS | Todos os direitos reservados
+</p>
+
+</footer>
+
+<!-- Adicionando acessibilidade - Vlibras -->
+<div vw class="enabled">
+   <div vw-access-button class="active"></div>
+   <div vw-plugin-wrapper>
+       <div class="vw-plugin-top-wrapper"></div>
+   </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+   new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+</body>
+
+</html>
